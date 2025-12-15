@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <style>
+        /* Tambahan gaya agar terlihat lebih rapi */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .calculator {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        button {
+            width: 40%;
+            padding: 10px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #hasilKalkulasi {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="calculator">
+        <h1>Kalkulator Sederhana</h1>
+        
+        <!-- Input untuk angka pertama -->
+        <input type="number" id="angka1" placeholder="Masukkan angka pertama">
+        
+        <!-- Input untuk angka kedua -->
+        <input type="number" id="angka2" placeholder="Masukkan angka kedua">
+        
+        <div>
+            <!-- Tombol untuk operasi penjumlahan -->
+            <button onclick="tambah()">Tambah</button>
+            
+            <!-- Tombol untuk operasi pengurangan -->
+            <button onclick="kurang()">Kurang</button>
+        </div>
+        <div>
+            <!-- Tombol untuk operasi perkalian -->
+            <button onclick="kali()">Kali</button>
+            
+            <!-- Tombol untuk operasi pembagian -->
+            <button onclick="bagi()">Bagi</button>
+        </div>
+        
+        <!-- Paragraf untuk menampilkan hasil -->
+        <p id="hasilKalkulasi">Hasil akan ditampilkan di sini</p>
+    </div>
+
+    <!-- Tautkan ke file JavaScript -->
+    <script src="tugas 12.JS"></script>
+
+</body>
+</html>
