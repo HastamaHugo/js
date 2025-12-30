@@ -1,6 +1,6 @@
 // Deklarasi variabel
-let myName = "Wildha Aulya";
-const myAge = 16;
+let myName = "Hastama Hugo Wian Dwi Nanda";
+const myAge = 17;
 
 // Menampilkan nilai di console
 console.log(myName);
@@ -33,4 +33,5 @@ tombol.addEventListener("mouseout", function() {
 // Fungsi untuk menampilkan alert
 function showAlert() {
     alert("Anda telah mengklik tombol!");
+
 }
